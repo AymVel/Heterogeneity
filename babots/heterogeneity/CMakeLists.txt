@@ -9,7 +9,7 @@ include(${FLAMEGPU_ROOT}/cmake/CUDAArchitectures.cmake)
 flamegpu_init_cuda_architectures(PROJECT worm_oxygen)
 
 # Name the project and enable required languages
-project(worm_oxygen CXX CUDA)
+project(heterogeneity CXX CUDA)
 
 # Include common rules.
 include(${FLAMEGPU_ROOT}/cmake/common.cmake)

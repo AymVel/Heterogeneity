@@ -116,13 +116,13 @@ mkdir -p build && cd build
 cmake .. -DCMAKE_BUILD_TYPE=Release -DFLAMEGPU_VISUALISATION=ON
 
 # Build the required targets
-cmake --build . --target flamegpu worm_oxygen -j 8
+cmake --build . --target flamegpu heterogeneity -j 8
 
 # Alternatively make can be invoked directly
-make flamegpu worm_oxygen -j8
+make flamegpu heterogeneity -j8
 
 # To launch it
-./bin/Release/worm_oxygen -s 0
+./bin/Release/heterogeneity -s 0
 
 ```
 
